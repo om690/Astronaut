@@ -8,7 +8,7 @@
 }
 
 .navbar-fixed {
-    position: fixed;
+    /* position: fixed; */
     top: 50px;
     /* Below the alert */
     left: 0;
