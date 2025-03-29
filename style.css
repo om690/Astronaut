@@ -19,7 +19,7 @@
     /* Set a background color to avoid transparency issues */
 }
 
-.content-wrapper {
+.content-wraper {
     margin-top: 120px;
     /* Space below fixed alert and navbar */
 }
@@ -35,8 +35,7 @@
     padding: 110px;
 }
 
-.ul,
-li {
+.ul,li {
     color: white;
 }
 
