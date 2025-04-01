@@ -49,3 +49,38 @@
     border: 1px solid rgba(255, 255, 255, 0.2); /* Light translucent border */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
+.btn{
+    margin-bottom: 200px;
+}
+.video-container {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.video-container .text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Position the button at the bottom-right */
+.video-container .btn-inner {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    z-index: 10;
+    padding: 15px;
+}
